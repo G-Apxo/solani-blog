@@ -1729,7 +1729,7 @@ background: linear-gradient(119deg, rgba(247,204,155,1) 0%, rgba(195,150,123,1) 
 .for_your_small_text{
   text-transform: lowercase;
   float: right;
-  margin-top: 3vh;
+  /* margin-top: 3vh; */
   line-height: 33px;
   text-align:center;
 }

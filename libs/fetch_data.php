@@ -419,7 +419,7 @@ function getblogridposts($table){
 		foreach ($result as $bloggrid => $griditem) {
       	# code...
 			echo '
-			<li class="cards-item" style="margin-left: 2%;">
+			<li class="cards-item" style="margin-left: 2%; margin-top: 15px;">
 			<a href="single.php?id='.$griditem['id'].'">
 			   <div class="card">
 				  <div class="card-image">
