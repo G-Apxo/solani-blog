@@ -91,10 +91,10 @@
             </div>
             <div class="header__right">
                <ul class="header__menu">
-                  <li class="active"><a class="js-scroll-link" href="#home">HOME</a></li>
-                  <li><a class="js-scroll-link" href="#areas" >Areas</a></li>
-                  <li><a class="js-scroll-link" href="#projects" >Projects</a></li>
-                  <li><a class="js-scroll-link" href="#contact" >CONTACT</a></li>
+               <li class="active"><a class="js-scroll-link" href="javascript:;" data-link="0">HOME</a></li>
+                  <li><a class="js-scroll-link" href="javascript:;" data-link="1">Areas</a></li>
+                  <li><a class="js-scroll-link" href="javascript:;" data-link="2">Projects</a></li>
+                  <li><a class="js-scroll-link" href="javascript:;" data-link="3">CONTACT</a></li>
                </ul>
                <!-- <div class="header__phone"><a href="tel:+23155908368">+2(123) 123 123 123</a></div> -->
             </div>
@@ -304,45 +304,7 @@
                      </div>
                         <ul class="cards">
                         <?php getblogridposts("blogs");?>
-                           <!-- <li class="cards-item" style="margin-left: 2%;">
-                              <a href="mshoblis_skivri.php">
-                                 <div class="card">
-                                    <div class="card-image card-image1"></div>
-                                    <div class="card-content">
-                                       <div class="h1 mac__prjects_content">Mshoblis skivri</div>
-                                       <br/>
-                                       <br/>
-                                       <p class="medium project__content " >A multimedia channel to support families of the limited ability</p>
-                                    </div>
-                                 </div>
-                              </a>
-                           </li> -->
-                           <!-- <li class="cards-item" style="margin-left: 2%;">
-                              <a href="baias_wine.php">
-                                 <div class="card">
-                                    <div class="card-image card-image2"></div>
-                                    <div class="card-content">
-                                       <div class="h1 mac__prjects_content" >Baia's wine</div>
-                                       <br/>
-                                       <br/>
-                                       <p class="medium project__content" >Partnership of the future: the unique tracking system and web design </p> 
-                                    </div>
-                                 </div>
-                              </a>
-                           </li> -->
-                           <!-- <li class="cards-item" style="margin-left: 2%; margin-top:2%;margin-bottom:2%">
-                              <a href="cardano.php">
-                                 <div class="card">
-                                    <div class="card-image card-image3"></div>
-                                    <div class="card-content">
-                                       <div class="h1 mac__prjects_content" >The Cardano Difference</div>
-                                       <br/>
-                                       <br/>
-                                       <p class="medium project__content" >Short Documentary about Cardano-Scantrust pilot Metadata project</p> 
-                                    </div>
-                                 </div>
-                              </a>
-                           </li> -->
+
                         </ul>
                      </div>
                   </div>
